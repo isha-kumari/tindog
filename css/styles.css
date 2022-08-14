@@ -1,0 +1,164 @@
+/* To become a good programmer, aspire to DRY - Don't Repeat Yourself, not to WET - We Enjoy Typing*/
+
+body{
+    font-family: "Montserrat";
+}
+h1 {
+    font-family: 'Montserrat-bold';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 600;
+    color: white;
+}
+h2{
+  font-family: "Montserrat-extrabold";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+h3{
+    font-family: "Montserrat-bold";
+}
+p{
+    color: #afafaf
+}
+
+/* title-section */
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/*navigation-bar*/
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+/* download button */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+/* title-image */
+.title-image{
+    position: absolute;
+    right: 4%;
+}
+
+
+/* features */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+    
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.test-text{
+    padding: 0 5%;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+/* press-section */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing-section */
+#pricing{
+    padding: 100px 100px 50px;
+    text-align: center;
+}
+.price-card{
+    padding: 3% 2%;
+}
+
+@media (max-width: 1180px){
+    .title-image{
+        position: static;
+    }
+    .title-text{
+        text-align: center;
+    }
+}
+
+/* call to action */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+}
+.cta-text{
+    padding: 3% 17% 3%;
+}
+.cta-btn {
+    padding: 0% 30% 6% 30%;
+}
+.cta-btn button{
+    margin: 5% 3% 5% 0;
+}
+
+/* contact-section */
+#contact {
+    background-color: #fff;
+}
+.form-section{
+    margin: 3% 25% 3%
+}
+
+.form-section .form-group {
+    padding: 1%;
+}
+
+#footer{
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+}
+.footer-icon{
+    justify-content: center;
+}
